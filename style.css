@@ -1,0 +1,39 @@
+body {
+  background-color: #e0e0e2;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  margin: 0 auto;
+  width: 70%;
+}
+
+#question {
+  text-align: center;
+}
+
+#result {
+  text-align: center;
+}
+
+#restart-button {
+  margin: 0 auto;
+}
+
+
+li {
+  list-style: none;
+  text-align: center;
+  background-color: white;
+  margin: 20px 0;
+  line-height: 3rem;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+li:hover {
+  background-color: cornflowerblue;
+}
