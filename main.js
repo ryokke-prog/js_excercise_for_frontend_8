@@ -59,8 +59,8 @@
     restartButtonElement.style.display = 'none';
 
     fetch(API_URL)
-      .then(Response => {
-        return Response.json();
+      .then(response => {
+        return response.json();
       })
       .then((data) => {
         gameState.quizzez = data.results;
@@ -105,7 +105,7 @@
   //   - 無し
   function finishQuiz() {
     resultElement.textContent =
-      gameState.numberOfCorrects + '/' + gameState.quizzez.length + ' cottects';
+      gameState.numberOfCorrects + '/' + gameState.quizzez.length + ' corrects';
     restartButtonElement.style.display = 'block';
   }
 
